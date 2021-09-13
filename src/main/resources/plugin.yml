@@ -1,0 +1,15 @@
+name: PdlRain
+version: 0.1
+main: is.pdl.pdlrain.PdlRain
+api-version: 1.16
+commands:
+  rainstate:
+    usage: /<command> <state> [player]
+    description: Sets the rain state.
+    aliases: [rainlevel, rain]
+    permission: pdlrain.rainstate
+  thunderstate:
+    usage: /<command> <state> [player]
+    description: Sets the thunder state.
+    aliases: [thunderlevel, thunder]
+    permission: pdlrain.thunderstate
